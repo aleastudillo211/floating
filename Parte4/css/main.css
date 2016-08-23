@@ -1,0 +1,38 @@
+.contenedor {
+	border: 2px;
+	display: block;
+    border: 2px solid #807D7D;
+    width: 50%;
+
+}
+
+.contenedor:after {
+    content: "";
+    clear: both;
+display: block;
+
+}
+.yellow { 
+	width: 25%;
+	height: 100px;
+	background-color: yellow;
+	padding: 10px;
+
+}
+.blue {
+	width: 25%;
+	height: 100px;
+	background-color: blue;
+	padding: 10px;
+
+}
+.red{
+	width: 25%;
+	height: 100px;
+	background-color: red;
+	padding: 10px;
+
+}
+.blue, .yellow, .red {
+	float: left;
+}
